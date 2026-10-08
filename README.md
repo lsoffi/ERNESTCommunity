@@ -156,7 +156,7 @@ Cambiare un file su GitHub non modifica direttamente le tabelle MySQL. Per rende
 
 ## Come viene pubblicata una modifica
 
-L’installazione attuale usa la cartella `community-app/` del ramo `codex/community-cern-preview`. Il ramo della community è distinto dal sito statico principale.
+L’installazione usa questo repository autonomo, distinto dal sito informativo ERNEST. Il ramo di pubblicazione è `main`.
 
 1. Modificare i file e verificare il risultato, preferibilmente attraverso una revisione del codice.
 2. Salvare e pubblicare il commit sul ramo configurato per la community.

@@ -50,7 +50,7 @@ MySQL client development libraries and pkg-config are required to build mysqlcli
 
 The GitHub workflow runs dependency auditing, schema/static checks and tests against SQLite and a disposable MySQL 8.4 instance. It has read-only repository permissions and needs no CERN Secrets. Dependabot proposes weekly changes; no automatic merge or deployment is configured by these files.
 
-**Activation prerequisite:** GitHub scheduled workflows and Dependabot configuration must be present on the repository's default branch. The daily workflow checks out the community publication branch. Keeping these files only on that publication branch does not activate daily checks or Dependabot. Push/PR checks also require publishing the commit and enabling Actions. Verify a successful run and configure maintainers' failure notifications before relying on automation.
+**Activation prerequisite:** GitHub scheduled workflows and Dependabot configuration must be present on the repository's default branch. Push/PR checks require publishing the commit and enabling Actions. Verify a successful run and configure maintainers' failure notifications before relying on automation.
 
 Locally, use a disposable loopback-only MySQL instance and run `sh scripts/check_release.sh` with `TEST_MYSQL_PORT` as needed. Remove deployment database credentials first: the test settings reject `MYSQL_HOST`, restrict the test host to loopback, and use locmem email. Never run concurrency/load tests against CERN DBOD or real accounts. Python 3.12 is the deployment/CI target; a local run under another version does not replace that CI run.
 
