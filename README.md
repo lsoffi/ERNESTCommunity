@@ -43,7 +43,7 @@ flowchart LR
 | **Aruba** | Gestisce il dominio del progetto e la posta utilizzata per l’invio delle email. | Recapita conferme di registrazione e recupero password. Non ospita il database dei quiz. |
 | **Pannello Django `/admin/`** | Mostra iscritti e tentativi agli operatori autorizzati. | Consente la gestione quotidiana senza interrogare direttamente MySQL. |
 
-Il sito informativo ERNEST su GitHub Pages e questa applicazione sono componenti distinti. GitHub Pages pubblica pagine statiche; la community richiede un’applicazione in esecuzione e un database. Anche `community-preview/`, presente nel repository, è una dimostrazione grafica distinta dall’app Django in questa cartella.
+Il sito informativo ERNEST e questa applicazione sono componenti distinti: il primo pubblica contenuti editoriali, mentre la community richiede un’applicazione in esecuzione e un database.
 
 ## Quale pannello aprire
 
