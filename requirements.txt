@@ -14,9 +14,9 @@ django==5.2.17 \
     # via
     #   -r requirements.in
     #   django-otp
-django-otp==1.7.3 \
-    --hash=sha256:3ce501173bf1b936146ffe5ff0cfdae1a0c7eb46cce1e9e3fdddd984d993c74f \
-    --hash=sha256:7d52fb0f76c4c1c86cbc71c196d3f79941b0b84aff980e45193bef89a70a7a12
+django-otp==1.7.4 \
+    --hash=sha256:2fa56711167db887bf80ebdc35820355e756a3fdc0b9af0e34494b737312bc16 \
+    --hash=sha256:f3a970be59ca407d90fd278de3253979417364f91e9edcfcd7a9f05235859b27
     # via -r requirements.in
 gunicorn==26.2.0 \
     --hash=sha256:62b864895d9ebff0b2f9867ba04fe811c93121596540830c9c916d0769668447 \
